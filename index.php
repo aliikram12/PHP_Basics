@@ -57,8 +57,47 @@
             echo "<br>";
 
             echo $fname." ". $lname;
+
+
+
+
             
         
+    ?>
+
+
+
+
+    <?php
+            $a = 10;
+            $b = 3;
+             echo "<br>";
+            echo $a + $b;   // 13
+             echo "<br>";
+            echo $a % $b;   // 1
+
+            $score = 85;
+             echo "<br>";
+
+            if ($score >= 60) {
+                echo "Passed";
+            } else {
+                echo "Failed";
+            }
+
+
+
+             echo "<br>";
+
+
+            $status = ($score >= 60) ? "Pass" : "Fail";
+            echo $status;   // Pass
+
+
+            
+            echo "<br>";
+            $name = $_GET['user'] ?? "Guest";  // null coalescing
+            echo $name;
     ?>
 </body>
 </html>
