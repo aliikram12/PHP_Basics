@@ -6,6 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Wellcome</h1>
+
+    <?php
+        echo "Wellcome From PHP :";
+
+        $a = "ABC";
+        echo $a;
+
+
+        
+            // Variables:
+            $city = "SGD"; //Globle 
+        
     
+            function showCity() {
+                $city1 = "Lahore";  //Local 
+                echo $city1;
+            }
+            
+            
+
+
+
+
+    ?>
 </body>
 </html>
