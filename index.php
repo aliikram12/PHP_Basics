@@ -46,12 +46,19 @@
             var_dump($colors); // array(2) { ... }
             echo "<br>";
             var_dump($empty);  // NULL
+
+
+
+
+
+            $fname = "ALI";
+
+            $lname = "ikram";
+            echo "<br>";
+
+            echo $fname." ". $lname;
             
-            
-
-
-
-
+        
     ?>
 </body>
 </html>
