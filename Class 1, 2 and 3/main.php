@@ -6,14 +6,13 @@
 
 
         echo "Form submitted successfully!<br>";
-        // echo "Welcome, " . $name . "<br>";
-        // echo "Email: " . $email . "<br>";
+        echo "Welcome, " . $name . "<br>";
+        echo "Email: " . $email . "<br>";
         echo "<a href='main.html'>Go back to the form</a>";
 
     }else{
         echo "Please submit the form.";
         echo "<a href='main.html'>Go back to the form</a>";
     }
-
 
 ?>
